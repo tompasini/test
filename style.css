@@ -1,0 +1,38 @@
+div {
+    width: 300px;
+    border: 25px solid red;
+}
+
+.four {
+    width: 150px;
+    border: 25px solid purple;
+    outline: 5px solid black;
+    padding: 25px;
+}
+
+.internal{
+    border: 25px solid blue;
+    color: blueviolet;
+    font-weight: 100;
+}
+
+p,
+span {
+    color: red;
+}
+
+p+span {
+    color: orange;
+}
+
+.yellow {
+    color: yellow;
+}
+
+#green{
+    color: green;
+}
+
+#green.yellow {
+    color: blue;
+}
